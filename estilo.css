@@ -1,0 +1,56 @@
+/*                                            FORMAS DE USAR SELECTORES                                   */
+
+/* UNIVERSAL---------------------*/
+Selecciona todo lo que esta en el body
+
+*{
+    color: #fff;
+}
+
+/* DE TIPO-----------------------*/
+Selecciona por elemento/etiqueta
+
+h1 {
+    color: rgb(60, 0, 255);
+}<h1>de esta manera se escribe</h1>
+
+
+/* POR CLASE---------------------*/
+Selecciona por clase que le pongamos para distinguirla
+
+.nombreDeLaClase{
+    color: rgb(60, 0, 255);
+}<h1 class="nombreDeLaClase">de esta manera se escribe</h1>ç
+
+/* POR ID-----------------------*/
+Selecciona por un ID que le demos
+
+#nombre-id{
+    color: rgb(60, 0, 255);
+}<h1 id="nombre-id">de esta manera se escribe</h1>
+
+/* MANERA DESCENDENTE...........*/
+Selecciona el contenido de una etiqueta adentro de otra 
+
+h2 p {
+    color: #fff;
+}<h2><p>de esta manera se escribiria</p></h2>
+
+/* PSEUDO CLASE-----------------*/
+Cuando pase el mouse y quiero campie de color se utiliza
+
+b:hover {
+    color: #fff;
+}<h2><b>de esta forma se escribiria</b></h2>
+
+
+
+/*                                            ESPECIFICIDAD                                        */
+
+!IMPORTANT
+
+
+
+
+
+

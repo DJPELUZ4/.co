@@ -1,0 +1,125 @@
+body {
+    font-family: "Montserrat", sans-serif; /*PONGO OTRA FUENTE*/
+    background-color: #efefef; /*PONEMOS COLOR AL FONDO*/
+    margin-top: 100px; /*REINICIO MARGEN POR DEFECTO*/
+}
+
+/* -------------------HEADER---------------------*/
+
+header {
+    background-color: #ffb300;/*Aplico color al fondo*/
+    color: #940533;/*Defino color de letras*/
+    padding: 8px;/*Anchura de arrbia abajo de la letra*/
+
+    margin-top: -100px;
+}
+
+
+header a img {
+    width: 25px;
+    display: inline-block;
+    color: #940533;
+    float: right;
+    padding: 0.3rem;
+    margin: 0.5rem;
+}
+
+
+
+header h1 {
+    font-size: 3rem;
+   /*text-shadow: 3px 5px 5px #940533 */;/*3px corre a la derecha,5px corre hacia abajao,5px dibuminacion de la sombra*/
+    text-align:center;/*centrar el texto al medio*/
+    color: #940533;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    margin: 0;
+}
+/*-----------------------------------------------*/
+
+/*---------------------DIV-----------------------*/
+
+div img {
+    max-width: 100%;
+     /*PARA PODER VER EN CELULARES BIEN*/
+}
+
+/*-------------------SECTIONS--------------------*/
+
+.contenedor {
+    display:inline-block;
+    width: 250px;
+    cursor: pointer; /*SIRVE PARA CUANDO PASAS EL CURSOS SE HAGA LA MANITO*/
+    box-sizing: border-box;
+    margin: 1.5rem;
+}
+
+section article {
+
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    padding: 0.25rem 0;
+    border-radius: 0.7rem;
+    margin: 1rem 0rem;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem #940533;
+}
+
+section article h2 {
+    font-size: 1.5rem;
+    background-color: #940533;
+    text-align:  center;
+    color: white;
+    padding: 0.5rem;
+}
+
+section article h4 {
+    background-color: #ffffff;
+    color: #940533;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+section article p {
+    color: white;
+    background-color: #940533;
+    text-align: center;
+}
+
+/*-----------------------------------------------*/
+
+/*--------------------FOOTER---------------------*/
+
+footer {
+    background-color: #940533;
+    color: white;
+    padding: 3rem;
+}
+
+footer section {
+    float: right;
+    color: white;
+
+}
+
+footer h4 {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin: 0.2rem;
+
+}
+
+footer a:hover {
+    transition: color 0.3s ease;
+    color: #ff8800;
+}
+
+
+/*-------------------FOOTER----------------------*/
